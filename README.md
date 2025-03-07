@@ -1,17 +1,19 @@
 # 42Template
 Plantilla basica para mis proyectos de 42, me ahorrara tiempo en el futuro o eso espero.
 
-##Carpetas
+## Carpetas
 
 La plantilla consta de entre 1 y 7 tipos de carpeta.
 
-## Notacion
+### Notacion
 
 **\{E}**: Son carpetas que han de ser eliminadas antes de entregar el proyecto porque son consideradas "Innecesarias".
 
 **\{M}**: Son carpetas generadas por el makefile y eliminadas por el mismo.
 
 **\{N}**: Puede haber multiples carpetas de este tipo.
+
+---
 
 ### {E}Fuentes
 La carpeta [Fuentes](./Fuentes) es donde guardo un README con los links de los tutoriales y paginas que he consultado, con un subject y si encuentro la hoja de correccion tambien.
@@ -76,9 +78,15 @@ Tiene las siguientes normas:
 ## Uso
 
 1- Clona el repositorio
+
 2- Copia las carpetas de las librerias y asegurate de que tengan la estructura con carpeta de Includes
+
 3- Modifica el makefile para el nombre del proyecto y las normas, ten presente que usa una wildcard para coger todo lo que haya dentro de la carpeta src.
+
 4- Haz el proyecto dentro de [source](./src) y con el [header](./src/Includes)
+
 5- Haz tus propios testers o utiliza los de otros en la carpeta tester, si quieres crea una norma test en el makefile.
+
 6- Elimina las carpetas y archivos \{E} Ya que son tecnicamente innecesarios para la compilacion y la correccion.
+
 7- Copia esta repo en la repo del ejercicio de 42 y pushea.
