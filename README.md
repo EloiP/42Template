@@ -41,6 +41,10 @@ La carpeta libs contiene todas las librerias compiladas, lo qual hace mas facil 
 
 La carpeta includes contiene todos los .h del proyecto, esto facilita su uso y hace que todo sea mas ordenado.
 
+### {M}deps
+
+La carpeta deps contiene todos los .d del proyecto, esto sirve para evitar relinks innecesarios y hace que hagan falta mas flags al compilar.
+
 ### .git
 
 La carpeta .git gestiona todo lo relacionado con el proyecto de github, asi que esta bien eliminarla cuando vayas a pasarlo a la repo de 42.
